@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+     
+}
+body{
+    background-color: aqua;
+}
+.container{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    border: solid 5px yellow;
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+}
+h1{
+    color: aliceblue;
+    margin-top: 15px;
+}
+h2{
+    color: aliceblue;
+    
+}
+h3{
+    color: aliceblue;
+    margin-top: 10px;
+}
+.numIngresado{
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.button{
+    margin-top: 15px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(68, 68, 247);
+    color: aliceblue;
+}
+label{
+    color: aliceblue;
+}
+.resultado{
+    color: aliceblue;
+}
